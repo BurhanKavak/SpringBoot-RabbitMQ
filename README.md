@@ -35,7 +35,7 @@
 - **Consumer**: Gönderilen mesajı karşılayan sunucudur. Yani Redis Pub/Sub’daki Subscribe’dır. Kısaca ilgili kuyruğu(Queue)’yu dinleyen taraftır.
 - **Fifo**: RabbitMQ’da giden mesajların işlem sırası first in first out yani ilk giren ilk çıkar şeklindedir.
 - **Exchange:** Producer’dan gelen mesajları kuyruğa iletmek üzere  kabul eder.  Exchange, aldığı mesajla ne yapacağını bilmelidir.  Routing key yardımı ile  mesajı ilgili kuyruğa iletmektedir.
-- **Exchance Type:**   ****Mesajın hangi “queue” ye ne şekilde iletileceğini belirtir. 4 tane exchange tipi bulunmaktadır Direct, Topic, Fanout,Header.
+- **Exchance Type:**   Mesajın hangi “queue” ye ne şekilde iletileceğini belirtir. 4 tane exchange tipi bulunmaktadır Direct, Topic, Fanout,Header.
 - **Binding:** Exchance ve queue arasındaki bağlantıdır.
 
 
